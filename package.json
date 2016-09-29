@@ -1,0 +1,31 @@
+{
+  "name": "cube-summation",
+  "version": "1.0.0",
+  "description": "Program to solve cube summation problem described in https://www.hackerrank.com/challenges/cube-summation",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.5.1",
+    "mongoose": "~3.8.0",
+    "body-parser": "~1.4.2",
+    "method-override": "~2.0.2",
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiersan2911/cube-summation.git"
+  },
+  "keywords": [
+    "cube-summation"
+  ],
+  "author": "Javier Sandoval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javiersan2911/cube-summation/issues"
+  },
+  "homepage": "https://github.com/javiersan2911/cube-summation#readme"
+}

@@ -1,0 +1,24 @@
+<div class="col-md-12" ng-model="message" ng-show="message">
+    <div class="alert alert-danger">
+        <strong>Error! </strong>{{message}}
+    </div>
+</div>
+
+<form action="ejecutar()">
+    <div class="bs-callout bs-callout-default">
+        <h4>Comandos de entrada</h4>
+        <div class="form-group">
+            <textarea ng-model="entrada" class="form-control" rows="5" id="comment"></textarea>
+        </div>
+        <button type="button" ng-click="ejecutar()" class="btn btn-default">Ejecutar</button>
+    </div>
+
+    <div class="bs-callout bs-callout-success" ng-show="mostrarResultado">
+        <h4>Resultado</h4>
+        <div ng-repeat="sal in salida" class="col-md-12">
+            {{sal.valor}}
+        </div>
+    </div>
+
+</form>
+</div>
